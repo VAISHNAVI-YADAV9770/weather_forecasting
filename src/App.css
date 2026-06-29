@@ -58,3 +58,42 @@
 .search-box button:hover {
   opacity: 0.9;
 }
+.weather-card {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 15px;
+  background: #f8f9fa;
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+}
+
+.weather-card h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.weather-card p {
+  font-size: 18px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.weather-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-info span {
+  color: gray;
+  font-size: 14px;
+}
+
+.weather-info strong {
+  margin-top: 5px;
+}
